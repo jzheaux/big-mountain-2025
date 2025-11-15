@@ -1,9 +1,10 @@
 ---
 title: Once Upon a PR, Applying Storytelling Principles to Documentation
 author: Josh Cummings
-images:
-  backend: auto
 patat:
+  pandocExtensions:
+    - patat_extensions
+    - autolink_bare_uris
   incrementalLists: true
   images:
     backend: kitty
@@ -29,26 +30,33 @@ wow...
 
 ---
 
-# Migrant Mother
-
-![by Dorothea Lange](Lange-MigrantMother02.jpg)
-
-
-
----
-
 # The Quest
 
 ![](old_documentation.png)
 
+<!-- Some of Spring Security's older docs -->
+
 ---
 
-# Arc
+![](narrative-arc.png)
 
+<!--
+- Frodo and LOTR
 - Every story has a beginning, middle, and end
-- Beginning - who the players are, what they are up against
+- Beginning - who the players are, what they are up against, introduction of a problem
 - Middle - pursuit of resolution
 - End - problem's solved, lessons learned, morals reinforced
+-->
+
+---
+
+# Narrative Arc
+
+- Beginning
+- Middle
+- End
+
+---
 
 # Know Your Reader
 
@@ -56,53 +64,126 @@ wow...
 - No passive voice
 - Think "pair programming"
 
-# Account for the Curse of Knowledge
+---
+
+![](song-tapping.jpg)
+
+<!--
+https://chatgpt.com/g/g-p-676ddd0dc704819194db0a8c1fed05bd/c/682bb89a-5f5c-8005-96c4-2c09732e2103
 
 - Song tapping
-- ChatGPT can pretend to be a Junior reader
 - Beta Readers
+- ChatGPT can pretend to be a Junior reader
+-->
+
+---
+
+# Break the Curse of Knowledge
+
+- Beta Readers
+- ChatGPT
+
+---
+
+![](show-dont-tell.png)
+
+<!--
+Teaching about the Hebrew temple
+-->
+
+---
 
 # Show, Don't Tell
 
-- Oli's story
+- Paint the picture
 - Just-in-time Docs
 - Use code samples, runnable if you can
-- Get the reader invested in solving the problem by including them in the solution
-- Emoji's, it's not always clear whether what you are saying is a good thing or a bad thing
+
+---
+
+![by Dorothea Lange](Lange-MigrantMother02.jpg)
+
+---
 
 # A Picture Is Worth 1000 Words
 
-- Diagrams
-- Metaphor
+- Diagrams 
+- Metaphor 
+- Emoji's ✅
+
+---
+
+![](choose-your-own-adventure.jpg)
+
+<!--
+- Choose Your Own Adventure Story
+-->
+
+---
 
 # Choose Your Own Adventure!
 
-- Zac's question about autobiography
-- Links
+- Inline Links
+- Navigation Links
+- Small Pages
+- "Jump to Recipe" button
+
+---
+
+# Choose Your Own Adventure!
+
+> What would be the best medium of storytelling to tell your life story? Ideas: Shadow puppetry, rock ballad, interpretive dance, or perhaps back to the good old campfire tale. Be creative and surprise me!
+
+. . .
+
+I think it would be fun to have a computer program that would tell my story by running it. It would probably be something of a choose your own adventure, and you could either pick the route I *did* go or the route I *didn't* and the program would predict what might have happened had I chosen another path.
+
+. . .
+
+Also, you could learn my story through a meta-analysis of the code itself. Like maybe the early parts of the code are simple and problematic, then later parts of the code are using patterns but are overly complex, then later parts are simple, unflashy, and do the job well.
+
+. . .
+
+Maybe some of my story would be hidden in the Git comments, in JavaDoc links, and in a stenographized favico.
+
+. . .
+
+It would also contain a virus that, when you ran the program, it would hypnotize you to crave Kentucky Fried Chicken fortnightly. 
+
+---
 
 # Embrace Rewriting
 
 - The first version is for you
+- Kill Your Darlings
 - Don't be afraid to delete the whole thing and try again
 
-# Each Sentence Is Earned
+---
 
-- Grammarly
-- ChatGPT
+# DEMO
 
-
+[Spring Security Reference](https://docs.spring.io/spring-security/reference/index.html)
 
 ---
 
-![](/home/jzheaux/code/jzheaux/big-mountain-2025/springsecuritylogo.png)
+# Let's Review
+
+- Beginning, Middle, End
+- Know Your Reader
+- Break the Curse of Knowledge
+- Show, Don't Tell
+- Picture > 1000 Words
+- Choose Your Own Adventure
+- Embrace Rewriting
 
 ---
 
-# Important title
+# Thanks!
 
-Things I like:
+https://github.com/jzheaux/big-mountain-2025
 
-- Markdown
-- Haskell
-- Pandoc
+Josh Cummings - https://bsky.app/profile/jzheaux.bsky.social
 
+---
+
+# Fin
